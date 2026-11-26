@@ -1,5 +1,5 @@
 POST http://127.0.0.1:3000/autch/register
-Content-Type: application/json
+Content-Type: application/json 
 
 {
     "name": "prueba",
@@ -8,6 +8,7 @@ Content-Type: application/json
 }
 
 ### login sin conexion a BDD
+
 POST http://127.0.0.1:3000/autch/login
 Content-Type: application/json
 
@@ -18,5 +19,6 @@ Content-Type: application/json
 }
 
 ### users
+
 GET http://127.0.0.1:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTU2NTU5MDgsImV4cCI6MTc5NTY1NTk2OH0.ydVDiQ-MomEgP3rCZ-njVhFF_QnMQhkZuR_e3-bK3OE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTU2NzAzMjYsImV4cCI6MTc5NTY3MzkyNn0.sjFxH01pW6cpFG8NNNCLvWKIMGBXZbca--GF_lOCLHY
