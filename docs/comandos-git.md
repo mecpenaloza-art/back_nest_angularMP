@@ -7,7 +7,7 @@ git init
 - Referencia del repositorio local con el repositorio remoto (GITHUB)
 ````
 
-git remote add origin https://github.com/salfarinango-max/back_nest_angularSF.git
+git remote add origin https://github.com/mecpenaloza-art/back_nest_angularMP
 ````
 
 # Validar referencia

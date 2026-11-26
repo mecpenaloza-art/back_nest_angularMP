@@ -4,7 +4,7 @@ Content-Type: application/json
 {
     "name": "prueba",
     "email": "rpm@hm.com",
-    "password": "123456"
+    "password": "1234567"
 }
 
 ### login sin conexion a BDD
@@ -21,4 +21,4 @@ Content-Type: application/json
 ### users
 
 GET http://127.0.0.1:3000/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTU2NzAzMjYsImV4cCI6MTc5NTY3MzkyNn0.sjFxH01pW6cpFG8NNNCLvWKIMGBXZbca--GF_lOCLHY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3OTU2OTYzMjIsImV4cCI6MTc5NTY5OTkyMn0.B3LOal1l0_GLR5JpKrKsSbPg-MD93n9_XErVQMtgiyo
